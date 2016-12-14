@@ -1,0 +1,532 @@
+[07-Dec-2016 23:54:22 UTC] PHP Fatal error:  Class 'Html' not found in /home/ubuntu/workspace/views/site/login.php on line 11
+[07-Dec-2016 23:54:22 UTC] PHP Stack trace:
+[07-Dec-2016 23:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[07-Dec-2016 23:54:22 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[07-Dec-2016 23:54:22 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[07-Dec-2016 23:54:22 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[07-Dec-2016 23:54:22 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[07-Dec-2016 23:54:22 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[07-Dec-2016 23:54:22 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[07-Dec-2016 23:54:22 UTC] PHP   8. app\controllers\SiteController->actionLogin() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[07-Dec-2016 23:54:22 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:96
+[07-Dec-2016 23:54:22 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:378
+[07-Dec-2016 23:54:22 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[07-Dec-2016 23:54:22 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[07-Dec-2016 23:54:22 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[08-Dec-2016 22:11:47 UTC] PHP Fatal error:  Class 'Html' not found in /home/ubuntu/workspace/views/site/login.php on line 11
+[08-Dec-2016 22:11:47 UTC] PHP Stack trace:
+[08-Dec-2016 22:11:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[08-Dec-2016 22:11:47 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[08-Dec-2016 22:11:47 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[08-Dec-2016 22:11:47 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[08-Dec-2016 22:11:47 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[08-Dec-2016 22:11:47 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[08-Dec-2016 22:11:47 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 22:11:47 UTC] PHP   8. app\controllers\SiteController->actionLogin() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 22:11:47 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:96
+[08-Dec-2016 22:11:47 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:378
+[08-Dec-2016 22:11:47 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[08-Dec-2016 22:11:47 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[08-Dec-2016 22:11:47 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[08-Dec-2016 22:21:44 UTC] PHP Fatal error:  Class '\common\models\User' not found in /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/ExistValidator.php on line 155
+[08-Dec-2016 22:21:44 UTC] PHP Stack trace:
+[08-Dec-2016 22:21:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[08-Dec-2016 22:21:44 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[08-Dec-2016 22:21:44 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[08-Dec-2016 22:21:44 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[08-Dec-2016 22:21:44 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[08-Dec-2016 22:21:44 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[08-Dec-2016 22:21:44 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 22:21:44 UTC] PHP   8. app\controllers\SiteController->actionPasswordResetRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 22:21:44 UTC] PHP   9. yii\base\Model->validate() /home/ubuntu/workspace/controllers/SiteController.php:147
+[08-Dec-2016 22:21:44 UTC] PHP  10. yii\validators\Validator->validateAttributes() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Model.php:356
+[08-Dec-2016 22:21:44 UTC] PHP  11. yii\validators\ExistValidator->validateAttribute() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/Validator.php:265
+[08-Dec-2016 22:21:44 UTC] PHP  12. yii\validators\ExistValidator->createQuery() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/ExistValidator.php:111
+[08-Dec-2016 22:31:10 UTC] PHP Fatal error:  Class 'app\models\PasswordResetForm' not found in /home/ubuntu/workspace/controllers/SiteController.php on line 165
+[08-Dec-2016 22:31:10 UTC] PHP Stack trace:
+[08-Dec-2016 22:31:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[08-Dec-2016 22:31:10 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[08-Dec-2016 22:31:10 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[08-Dec-2016 22:31:10 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[08-Dec-2016 22:31:10 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[08-Dec-2016 22:31:10 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[08-Dec-2016 22:31:10 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 22:31:10 UTC] PHP   8. app\controllers\SiteController->actionPasswordReset() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 23:25:39 UTC] PHP Fatal error:  Class 'app\models\TimestampBehavior' not found in /home/ubuntu/workspace/models/Post.php on line 27
+[08-Dec-2016 23:25:39 UTC] PHP Stack trace:
+[08-Dec-2016 23:25:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[08-Dec-2016 23:25:39 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[08-Dec-2016 23:25:39 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[08-Dec-2016 23:25:39 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[08-Dec-2016 23:25:39 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[08-Dec-2016 23:25:39 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[08-Dec-2016 23:25:39 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 23:25:39 UTC] PHP   8. app\controllers\PostController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 23:25:39 UTC] PHP   9. yii\base\Object->__construct() /home/ubuntu/workspace/controllers/PostController.php:38
+[08-Dec-2016 23:25:39 UTC] PHP  10. yii\db\BaseActiveRecord->init() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Object.php:107
+[08-Dec-2016 23:25:39 UTC] PHP  11. yii\base\Component->trigger() /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php:887
+[08-Dec-2016 23:25:39 UTC] PHP  12. yii\base\Component->ensureBehaviors() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:528
+[08-Dec-2016 23:25:39 UTC] PHP  13. app\models\Post->behaviors() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:645
+[08-Dec-2016 23:31:24 UTC] PHP Fatal error:  Class 'Yii\behaviors\TimestampBehavior' not found in /home/ubuntu/workspace/models/Post.php on line 27
+[08-Dec-2016 23:31:24 UTC] PHP Stack trace:
+[08-Dec-2016 23:31:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[08-Dec-2016 23:31:24 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[08-Dec-2016 23:31:24 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[08-Dec-2016 23:31:24 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[08-Dec-2016 23:31:24 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[08-Dec-2016 23:31:24 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[08-Dec-2016 23:31:24 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 23:31:24 UTC] PHP   8. app\controllers\PostController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 23:31:24 UTC] PHP   9. yii\base\Object->__construct() /home/ubuntu/workspace/controllers/PostController.php:38
+[08-Dec-2016 23:31:24 UTC] PHP  10. yii\db\BaseActiveRecord->init() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Object.php:107
+[08-Dec-2016 23:31:24 UTC] PHP  11. yii\base\Component->trigger() /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php:887
+[08-Dec-2016 23:31:24 UTC] PHP  12. yii\base\Component->ensureBehaviors() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:528
+[08-Dec-2016 23:31:24 UTC] PHP  13. app\models\Post->behaviors() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:645
+[08-Dec-2016 23:31:44 UTC] PHP Fatal error:  Class 'app\models\ActiveRecord' not found in /home/ubuntu/workspace/models/Post.php on line 29
+[08-Dec-2016 23:31:44 UTC] PHP Stack trace:
+[08-Dec-2016 23:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[08-Dec-2016 23:31:44 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[08-Dec-2016 23:31:44 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[08-Dec-2016 23:31:44 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[08-Dec-2016 23:31:44 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[08-Dec-2016 23:31:44 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[08-Dec-2016 23:31:44 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 23:31:44 UTC] PHP   8. app\controllers\PostController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[08-Dec-2016 23:31:44 UTC] PHP   9. yii\base\Object->__construct() /home/ubuntu/workspace/controllers/PostController.php:38
+[08-Dec-2016 23:31:44 UTC] PHP  10. yii\db\BaseActiveRecord->init() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Object.php:107
+[08-Dec-2016 23:31:44 UTC] PHP  11. yii\base\Component->trigger() /home/ubuntu/workspace/vendor/yiisoft/yii2/db/BaseActiveRecord.php:887
+[08-Dec-2016 23:31:44 UTC] PHP  12. yii\base\Component->ensureBehaviors() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:528
+[08-Dec-2016 23:31:44 UTC] PHP  13. app\models\Post->behaviors() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:645
+[11-Dec-2016 21:25:02 UTC] PHP Fatal error:  Class 'app\controllers\Common' not found in /home/ubuntu/workspace/controllers/SiteController.php on line 230
+[11-Dec-2016 21:25:02 UTC] PHP Stack trace:
+[11-Dec-2016 21:25:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 21:25:02 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 21:25:02 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 21:25:02 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 21:25:02 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 21:25:02 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 21:25:02 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 21:25:02 UTC] PHP   8. app\controllers\SiteController->actionEvent() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 21:25:37 UTC] PHP Fatal error:  Class 'app\controllers\Common' not found in /home/ubuntu/workspace/controllers/SiteController.php on line 232
+[11-Dec-2016 21:25:37 UTC] PHP Stack trace:
+[11-Dec-2016 21:25:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 21:25:37 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 21:25:37 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 21:25:37 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 21:25:37 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 21:25:37 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 21:25:37 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 21:25:37 UTC] PHP   8. app\controllers\SiteController->actionEvent() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 22:56:13 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/models/Post.php on line 33
+[11-Dec-2016 22:56:13 UTC] PHP Stack trace:
+[11-Dec-2016 22:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 22:56:13 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 22:56:13 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 22:56:13 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 22:56:13 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 22:56:13 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 22:56:13 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 22:56:13 UTC] PHP   8. app\controllers\PostController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 22:56:13 UTC] PHP   9. spl_autoload_call() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:38
+[11-Dec-2016 22:56:13 UTC] PHP  10. yii\BaseYii::autoload() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:38
+[11-Dec-2016 22:56:13 UTC] PHP  11. include() /home/ubuntu/workspace/vendor/yiisoft/yii2/BaseYii.php:288
+[11-Dec-2016 22:56:13 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/vendor/yiisoft/yii2/BaseYii.php:14
+[11-Dec-2016 22:56:13 UTC] PHP  13. yii\BaseYii::autoload() /home/ubuntu/workspace/vendor/yiisoft/yii2/BaseYii.php:14
+[11-Dec-2016 22:58:58 UTC] PHP Fatal error:  Class 'app\controllers\User' not found in /home/ubuntu/workspace/controllers/PostController.php on line 70
+[11-Dec-2016 22:58:58 UTC] PHP Stack trace:
+[11-Dec-2016 22:58:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 22:58:58 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 22:58:58 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 22:58:58 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 22:58:58 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 22:58:58 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 22:58:58 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 22:58:58 UTC] PHP   8. app\controllers\PostController->actionCreate() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:00:07 UTC] PHP Fatal error:  Undefined class constant 'EVENT_NEW_POST' in /home/ubuntu/workspace/controllers/PostController.php on line 91
+[11-Dec-2016 23:00:07 UTC] PHP Stack trace:
+[11-Dec-2016 23:00:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 23:00:07 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 23:00:07 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 23:00:07 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 23:00:07 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 23:00:07 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 23:00:07 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:00:07 UTC] PHP   8. app\controllers\PostController->actionUpdate() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:05:37 UTC] PHP Fatal error:  __clone method called on non-object in /home/ubuntu/workspace/controllers/SiteController.php on line 77
+[11-Dec-2016 23:05:37 UTC] PHP Stack trace:
+[11-Dec-2016 23:05:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 23:05:37 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 23:05:37 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 23:05:37 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 23:05:37 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 23:05:37 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 23:05:37 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:05:37 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:07:36 UTC] PHP Fatal error:  Class 'app\controllers\Pagination' not found in /home/ubuntu/workspace/controllers/SiteController.php on line 82
+[11-Dec-2016 23:07:36 UTC] PHP Stack trace:
+[11-Dec-2016 23:07:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 23:07:36 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 23:07:36 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 23:07:36 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 23:07:36 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 23:07:36 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 23:07:36 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:07:36 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:49:37 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/ubuntu/workspace/controllers/PostController.php on line 49
+[11-Dec-2016 23:49:37 UTC] PHP Stack trace:
+[11-Dec-2016 23:49:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 23:49:37 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 23:49:37 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 23:49:37 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 23:49:37 UTC] PHP   5. yii\base\Module->createController() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:448
+[11-Dec-2016 23:49:37 UTC] PHP   6. yii\base\Module->createControllerByID() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:522
+[11-Dec-2016 23:49:37 UTC] PHP   7. class_exists() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:564
+[11-Dec-2016 23:49:37 UTC] PHP   8. spl_autoload_call() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:564
+[11-Dec-2016 23:49:37 UTC] PHP   9. yii\BaseYii::autoload() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:564
+[11-Dec-2016 23:50:46 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/models/User.php on line 108
+[11-Dec-2016 23:50:46 UTC] PHP Stack trace:
+[11-Dec-2016 23:50:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 23:50:46 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 23:50:46 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 23:50:46 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 23:50:46 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 23:50:46 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 23:50:46 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:50:46 UTC] PHP   8. app\controllers\SiteController->actionLogin() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:50:46 UTC] PHP   9. app\models\LoginForm->login() /home/ubuntu/workspace/controllers/SiteController.php:115
+[11-Dec-2016 23:50:46 UTC] PHP  10. yii\base\Model->validate() /home/ubuntu/workspace/models/LoginForm.php:66
+[11-Dec-2016 23:50:46 UTC] PHP  11. yii\validators\Validator->validateAttributes() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Model.php:356
+[11-Dec-2016 23:50:46 UTC] PHP  12. yii\validators\InlineValidator->validateAttribute() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/Validator.php:265
+[11-Dec-2016 23:50:46 UTC] PHP  13. call_user_func:{/home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69}() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69
+[11-Dec-2016 23:50:46 UTC] PHP  14. app\models\LoginForm->validatePassword() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69
+[11-Dec-2016 23:50:46 UTC] PHP  15. app\models\LoginForm->getUser() /home/ubuntu/workspace/models/LoginForm.php:48
+[11-Dec-2016 23:50:46 UTC] PHP  16. spl_autoload_call() /home/ubuntu/workspace/models/LoginForm.php:80
+[11-Dec-2016 23:50:46 UTC] PHP  17. yii\BaseYii::autoload() /home/ubuntu/workspace/models/LoginForm.php:80
+[11-Dec-2016 23:51:25 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home/ubuntu/workspace/models/User.php on line 111
+[11-Dec-2016 23:51:25 UTC] PHP Stack trace:
+[11-Dec-2016 23:51:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 23:51:25 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 23:51:25 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 23:51:25 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 23:51:25 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 23:51:25 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 23:51:25 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:51:25 UTC] PHP   8. app\controllers\SiteController->actionLogin() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:51:25 UTC] PHP   9. app\models\LoginForm->login() /home/ubuntu/workspace/controllers/SiteController.php:115
+[11-Dec-2016 23:51:25 UTC] PHP  10. yii\base\Model->validate() /home/ubuntu/workspace/models/LoginForm.php:66
+[11-Dec-2016 23:51:25 UTC] PHP  11. yii\validators\Validator->validateAttributes() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Model.php:356
+[11-Dec-2016 23:51:25 UTC] PHP  12. yii\validators\InlineValidator->validateAttribute() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/Validator.php:265
+[11-Dec-2016 23:51:25 UTC] PHP  13. call_user_func:{/home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69}() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69
+[11-Dec-2016 23:51:25 UTC] PHP  14. app\models\LoginForm->validatePassword() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69
+[11-Dec-2016 23:51:25 UTC] PHP  15. app\models\LoginForm->getUser() /home/ubuntu/workspace/models/LoginForm.php:48
+[11-Dec-2016 23:51:25 UTC] PHP  16. spl_autoload_call() /home/ubuntu/workspace/models/LoginForm.php:80
+[11-Dec-2016 23:51:25 UTC] PHP  17. yii\BaseYii::autoload() /home/ubuntu/workspace/models/LoginForm.php:80
+[11-Dec-2016 23:51:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/models/User.php on line 111
+[11-Dec-2016 23:51:50 UTC] PHP Stack trace:
+[11-Dec-2016 23:51:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[11-Dec-2016 23:51:50 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[11-Dec-2016 23:51:50 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[11-Dec-2016 23:51:50 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[11-Dec-2016 23:51:50 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[11-Dec-2016 23:51:50 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[11-Dec-2016 23:51:50 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:51:50 UTC] PHP   8. app\controllers\SiteController->actionLogin() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[11-Dec-2016 23:51:50 UTC] PHP   9. app\models\LoginForm->login() /home/ubuntu/workspace/controllers/SiteController.php:115
+[11-Dec-2016 23:51:50 UTC] PHP  10. yii\base\Model->validate() /home/ubuntu/workspace/models/LoginForm.php:66
+[11-Dec-2016 23:51:50 UTC] PHP  11. yii\validators\Validator->validateAttributes() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Model.php:356
+[11-Dec-2016 23:51:50 UTC] PHP  12. yii\validators\InlineValidator->validateAttribute() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/Validator.php:265
+[11-Dec-2016 23:51:50 UTC] PHP  13. call_user_func:{/home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69}() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69
+[11-Dec-2016 23:51:50 UTC] PHP  14. app\models\LoginForm->validatePassword() /home/ubuntu/workspace/vendor/yiisoft/yii2/validators/InlineValidator.php:69
+[11-Dec-2016 23:51:50 UTC] PHP  15. app\models\LoginForm->getUser() /home/ubuntu/workspace/models/LoginForm.php:48
+[11-Dec-2016 23:51:50 UTC] PHP  16. spl_autoload_call() /home/ubuntu/workspace/models/LoginForm.php:80
+[11-Dec-2016 23:51:50 UTC] PHP  17. yii\BaseYii::autoload() /home/ubuntu/workspace/models/LoginForm.php:80
+[11-Dec-2016 23:58:38 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The 'label' option is required.' in /home/ubuntu/workspace/vendor/yiisoft/yii2-bootstrap/Nav.php:165
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2-bootstrap/Nav.php(147): yii\bootstrap\Nav->renderItem(false)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2-bootstrap/Nav.php(134): yii\bootstrap\Nav->renderItems()
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(102): yii\bootstrap\Nav->run()
+#3 /home/ubuntu/workspace/views/layouts/main.php(64): yii\base\Widget::widget(Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(326): require('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#9 [internal function]: yii\web\ErrorAction->run()
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#16 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('post/index', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#11 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'tz-work-alexandrl.c9users.io',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_REFERER' => 'https://tz-work-alexandrl.c9users.io/web/site/login',
+    'HTTP_COOKIE' => 'PHPSESSID=7pg6rhfset3iiv5q9fcr704vi3; _csrf=b54f4d74dba1d07b3e2e99c349f1e89201d5f54153bdbd461386edb3eb398f95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ToV__OqHQfdRIGBHtIEPFKRcL5SlYIru%22%3B%7D; XDEBUG_SESSION=cloud9ide; _identity=2bec143914795eda4ed7ff4a96e21d8d12ec0d81d030c717540d63e94089760fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22Z82fTP6WN6XYyWkGijElVL819ccIMbcs%22%2C2592000%5D%22%3B%7D',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '188.190.92.70',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.6.1/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at tz-work-alexandrl.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'tz-work-alexandrl.c9users.io',
+    'SERVER_ADDR' => '172.17.0.10',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.225',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '53496',
+    'REDIRECT_URL' => '/web/post/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/post/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1481500718.848000049591064453125,
+    'REQUEST_TIME' => 1481500718,
+]
+[11-Dec-2016 23:59:19 UTC] An Error occurred while handling another error:
+exception 'yii\base\InvalidConfigException' with message 'The 'label' option is required.' in /home/ubuntu/workspace/vendor/yiisoft/yii2-bootstrap/Nav.php:165
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2-bootstrap/Nav.php(147): yii\bootstrap\Nav->renderItem(false)
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2-bootstrap/Nav.php(134): yii\bootstrap\Nav->renderItems()
+#2 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Widget.php(102): yii\bootstrap\Nav->run()
+#3 /home/ubuntu/workspace/views/layouts/main.php(64): yii\base\Widget::widget(Array)
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(326): require('/home/ubuntu/wo...')
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php(248): yii\base\View->renderPhpFile('/home/ubuntu/wo...', Array)
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(393): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(379): yii\base\Controller->renderContent('<div class="sit...')
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorAction.php(109): yii\base\Controller->render('error', Array)
+#9 [internal function]: yii\web\ErrorAction->run()
+#10 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#11 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\Action->runWithParams(Array)
+#12 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('error', Array)
+#13 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/ErrorHandler.php(93): yii\base\Module->runAction('site/error')
+#14 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ErrorHandler.php(109): yii\web\ErrorHandler->renderException(Object(yii\web\ForbiddenHttpException))
+#15 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\ForbiddenHttpException))
+#16 {main}
+Previous exception:
+exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in /home/ubuntu/workspace/vendor/yiisoft/yii2/filters/AccessControl.php:151
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/yiisoft/yii2/filters/AccessControl.php(134): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/ActionFilter.php(73): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(269): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php(152): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#8 /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('post/index', Array)
+#9 /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /home/ubuntu/workspace/web/index.php(12): yii\base\Application->run()
+#11 {main}
+$_SERVER = [
+    'REDIRECT_STATUS' => '200',
+    'HTTP_HOST' => 'tz-work-alexandrl.c9users.io',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_COOKIE' => 'PHPSESSID=7pg6rhfset3iiv5q9fcr704vi3; _csrf=b54f4d74dba1d07b3e2e99c349f1e89201d5f54153bdbd461386edb3eb398f95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ToV__OqHQfdRIGBHtIEPFKRcL5SlYIru%22%3B%7D; XDEBUG_SESSION=cloud9ide; _identity=2bec143914795eda4ed7ff4a96e21d8d12ec0d81d030c717540d63e94089760fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22Z82fTP6WN6XYyWkGijElVL819ccIMbcs%22%2C2592000%5D%22%3B%7D',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_REGION' => 'eu',
+    'HTTP_X_FORWARDED_FOR' => '188.190.92.70',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'PATH' => '/home/ubuntu/.nvm/versions/node/v4.6.1/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin',
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib',
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at tz-work-alexandrl.c9users.io Port 443</address>
+',
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+    'SERVER_NAME' => 'tz-work-alexandrl.c9users.io',
+    'SERVER_ADDR' => '172.17.0.10',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '10.240.0.215',
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace',
+    'SERVER_ADMIN' => '[no address given]',
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/web/index.php',
+    'REMOTE_PORT' => '49052',
+    'REDIRECT_URL' => '/web/post/index',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/web/post/index',
+    'SCRIPT_NAME' => '/web/index.php',
+    'PHP_SELF' => '/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1481500759.4200000762939453125,
+    'REQUEST_TIME' => 1481500759,
+]
+[12-Dec-2016 00:09:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/views/layouts/main.php on line 60
+[12-Dec-2016 00:09:11 UTC] PHP Stack trace:
+[12-Dec-2016 00:09:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 00:09:11 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 00:09:11 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[12-Dec-2016 00:09:11 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[12-Dec-2016 00:09:11 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[12-Dec-2016 00:09:11 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[12-Dec-2016 00:09:11 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:09:11 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:09:11 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:91
+[12-Dec-2016 00:09:11 UTC] PHP  10. yii\base\Controller->renderContent() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:379
+[12-Dec-2016 00:09:11 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:393
+[12-Dec-2016 00:09:11 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:25:56 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/ubuntu/workspace/views/post/view.php on line 35
+[12-Dec-2016 00:25:56 UTC] PHP Stack trace:
+[12-Dec-2016 00:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 00:25:56 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 00:25:56 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[12-Dec-2016 00:25:56 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[12-Dec-2016 00:25:56 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[12-Dec-2016 00:25:56 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[12-Dec-2016 00:25:56 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:25:56 UTC] PHP   8. app\controllers\PostController->actionView() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:25:56 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/PostController.php:87
+[12-Dec-2016 00:25:56 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:378
+[12-Dec-2016 00:25:56 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[12-Dec-2016 00:25:56 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:29:06 UTC] PHP Fatal error:  Class 'User' not found in /home/ubuntu/workspace/views/post/_form.php on line 17
+[12-Dec-2016 00:29:06 UTC] PHP Stack trace:
+[12-Dec-2016 00:29:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 00:29:06 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 00:29:06 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[12-Dec-2016 00:29:06 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[12-Dec-2016 00:29:06 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[12-Dec-2016 00:29:06 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[12-Dec-2016 00:29:06 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:29:06 UTC] PHP   8. app\controllers\PostController->actionCreate() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:29:06 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/PostController.php:107
+[12-Dec-2016 00:29:06 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:378
+[12-Dec-2016 00:29:06 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[12-Dec-2016 00:29:06 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:29:06 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[12-Dec-2016 00:29:06 UTC] PHP  14. yii\base\View->render() /home/ubuntu/workspace/views/post/create.php:19
+[12-Dec-2016 00:29:06 UTC] PHP  15. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[12-Dec-2016 00:29:06 UTC] PHP  16. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:29:06 UTC] PHP  17. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[12-Dec-2016 00:31:36 UTC] PHP Fatal error:  Undefined class constant 'getStatusesArray' in /home/ubuntu/workspace/views/user/_form.php on line 28
+[12-Dec-2016 00:31:36 UTC] PHP Stack trace:
+[12-Dec-2016 00:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 00:31:36 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 00:31:36 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[12-Dec-2016 00:31:36 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[12-Dec-2016 00:31:36 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[12-Dec-2016 00:31:36 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[12-Dec-2016 00:31:36 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:31:36 UTC] PHP   8. app\controllers\UserController->actionCreate() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:31:36 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/UserController.php:91
+[12-Dec-2016 00:31:36 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:378
+[12-Dec-2016 00:31:36 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[12-Dec-2016 00:31:36 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:31:36 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[12-Dec-2016 00:31:36 UTC] PHP  14. yii\base\View->render() /home/ubuntu/workspace/views/user/create.php:19
+[12-Dec-2016 00:31:36 UTC] PHP  15. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[12-Dec-2016 00:31:36 UTC] PHP  16. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:31:36 UTC] PHP  17. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[12-Dec-2016 00:31:52 UTC] PHP Fatal error:  Undefined class constant 'getStatusesArray' in /home/ubuntu/workspace/views/user/_form.php on line 28
+[12-Dec-2016 00:31:52 UTC] PHP Stack trace:
+[12-Dec-2016 00:31:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 00:31:52 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 00:31:52 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[12-Dec-2016 00:31:52 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[12-Dec-2016 00:31:52 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[12-Dec-2016 00:31:52 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[12-Dec-2016 00:31:52 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:31:52 UTC] PHP   8. app\controllers\UserController->actionCreate() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 00:31:52 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/UserController.php:91
+[12-Dec-2016 00:31:52 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:378
+[12-Dec-2016 00:31:52 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[12-Dec-2016 00:31:52 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:31:52 UTC] PHP  13. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[12-Dec-2016 00:31:52 UTC] PHP  14. yii\base\View->render() /home/ubuntu/workspace/views/user/create.php:19
+[12-Dec-2016 00:31:52 UTC] PHP  15. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:150
+[12-Dec-2016 00:31:52 UTC] PHP  16. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 00:31:52 UTC] PHP  17. require() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:326
+[12-Dec-2016 22:30:57 UTC] PHP Parse error:  syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home/ubuntu/workspace/views/layouts/main.php on line 53
+[12-Dec-2016 22:30:57 UTC] PHP Stack trace:
+[12-Dec-2016 22:30:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 22:30:57 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 22:30:57 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[12-Dec-2016 22:30:57 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[12-Dec-2016 22:30:57 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[12-Dec-2016 22:30:57 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[12-Dec-2016 22:30:57 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 22:30:57 UTC] PHP   8. app\controllers\SiteController->actionIndex() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 22:30:57 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/controllers/SiteController.php:91
+[12-Dec-2016 22:30:57 UTC] PHP  10. yii\base\Controller->renderContent() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:379
+[12-Dec-2016 22:30:57 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:393
+[12-Dec-2016 22:30:57 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/View.php:248
+[12-Dec-2016 23:08:11 UTC] PHP Fatal error:  Class 'app\components\Yii' not found in /home/ubuntu/workspace/components/CheckIfLoggedIn.php on line 15
+[12-Dec-2016 23:08:11 UTC] PHP Stack trace:
+[12-Dec-2016 23:08:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 23:08:11 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 23:08:11 UTC] PHP   3. yii\base\Component->trigger() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:372
+[12-Dec-2016 23:08:11 UTC] PHP   4. call_user_func:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:08:11 UTC] PHP   5. app\components\CheckIfLoggedIn->checkIfLoggedIn() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:13:26 UTC] PHP Fatal error:  Class 'app\components\Yii' not found in /home/ubuntu/workspace/components/CheckIfLoggedIn.php on line 15
+[12-Dec-2016 23:13:26 UTC] PHP Stack trace:
+[12-Dec-2016 23:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 23:13:26 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 23:13:26 UTC] PHP   3. yii\base\Component->trigger() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:372
+[12-Dec-2016 23:13:26 UTC] PHP   4. call_user_func:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:13:26 UTC] PHP   5. app\components\CheckIfLoggedIn->checkIfLoggedIn() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:13:42 UTC] PHP Fatal error:  Call to undefined method Yii::app() in /home/ubuntu/workspace/components/CheckIfLoggedIn.php on line 15
+[12-Dec-2016 23:13:42 UTC] PHP Stack trace:
+[12-Dec-2016 23:13:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 23:13:42 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 23:13:42 UTC] PHP   3. yii\base\Component->trigger() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:372
+[12-Dec-2016 23:13:42 UTC] PHP   4. call_user_func:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:13:42 UTC] PHP   5. app\components\CheckIfLoggedIn->checkIfLoggedIn() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:21:58 UTC] PHP Fatal error:  Class 'User' not found in /home/ubuntu/workspace/components/CheckIfLoggedIn.php on line 16
+[12-Dec-2016 23:21:58 UTC] PHP Stack trace:
+[12-Dec-2016 23:21:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 23:21:58 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 23:21:58 UTC] PHP   3. yii\base\Component->trigger() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:372
+[12-Dec-2016 23:21:58 UTC] PHP   4. call_user_func:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:21:58 UTC] PHP   5. app\components\CheckIfLoggedIn->checkIfLoggedIn() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Component.php:540
+[12-Dec-2016 23:53:30 UTC] PHP Fatal error:  Undefined class constant 'EVENT_NEW_POST' in /home/ubuntu/workspace/controllers/PostController.php on line 101
+[12-Dec-2016 23:53:30 UTC] PHP Stack trace:
+[12-Dec-2016 23:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/web/index.php:0
+[12-Dec-2016 23:53:30 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/web/index.php:12
+[12-Dec-2016 23:53:30 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Application.php:375
+[12-Dec-2016 23:53:30 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/web/Application.php:100
+[12-Dec-2016 23:53:30 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Module.php:454
+[12-Dec-2016 23:53:30 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/Controller.php:154
+[12-Dec-2016 23:53:30 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55}() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
+[12-Dec-2016 23:53:30 UTC] PHP   8. app\controllers\PostController->actionCreate() /home/ubuntu/workspace/vendor/yiisoft/yii2/base/InlineAction.php:55
